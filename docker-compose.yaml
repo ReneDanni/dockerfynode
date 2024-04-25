@@ -8,8 +8,6 @@ services:
     networks: 
       - node-network
     tty: true
-    #ports:
-    #  - "3000:3000"
     entrypoint: ["node", "index.js"]
     depends_on:
       - db
